@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "com.carwhere/vin",
+  "description": "Decode any 17-character VIN: NHTSA specs, verified buyer pricing, open safety recalls, and AI vehicle insights. Free, no auth.",
+  "repository": { "url": "https://github.com/carwhere/vin-mcp", "source": "github" },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registry_type": "npm",
+      "identifier": "carwhere-vin-mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" }
+    }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://www.carwhere.com/api/mcp" }
+  ]
+}

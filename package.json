@@ -1,0 +1,53 @@
+{
+  "name": "carwhere-vin-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the CarWhere VIN API. Decode any VIN, look up verified buyer prices, NHTSA safety recalls, and AI-generated vehicle insights from inside Claude Desktop, Cursor, Claude Code, Windsurf, and any other MCP-compatible client.",
+  "license": "MIT",
+  "author": "CarWhere <hello@carwhere.com>",
+  "homepage": "https://www.carwhere.com/developers/mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carwhere/vin-mcp.git"
+  },
+  "bugs": "https://github.com/carwhere/vin-mcp/issues",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "vin",
+    "vin-decoder",
+    "nhtsa",
+    "vehicle-recalls",
+    "car-pricing",
+    "claude",
+    "anthropic",
+    "openai",
+    "automotive"
+  ],
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "carwhere-vin-mcp": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
