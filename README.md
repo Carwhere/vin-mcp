@@ -12,6 +12,7 @@ Free. No auth. Public data.
 | `check_recalls` | Open NHTSA safety recalls by VIN or year/make/model |
 | `get_pricing` | Verified buyer-transaction pricing for any year/make/model (optionally state) |
 | `validate_vin_check_digit` | Offline ISO 3779 / 49 CFR §565.15 checksum validator |
+| `buy_vin_report` | Secure Stripe checkout link for the $9.99 CarWhere Full VIN Report (window sticker, MSRP & options, recall scan, market price) |
 | `about_carwhere` | Server description and data sources |
 
 ## Install
@@ -90,8 +91,8 @@ Optional environment variable:
 ## Development
 
 ```bash
-git clone https://github.com/carwhere/vin-mcp.git
-cd vin-mcp
+git clone https://github.com/klombard1206/carwhere.git
+cd carwhere/mcp
 npm install
 npm run build
 npm run dev   # tsx src/cli.ts (stdio mode)
