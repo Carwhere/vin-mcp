@@ -91,8 +91,8 @@ Optional environment variable:
 ## Development
 
 ```bash
-git clone https://github.com/klombard1206/carwhere.git
-cd carwhere/mcp
+git clone https://github.com/carwhere/vin-mcp.git
+cd vin-mcp
 npm install
 npm run build
 npm run dev   # tsx src/cli.ts (stdio mode)
