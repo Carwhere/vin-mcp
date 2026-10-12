@@ -1,6 +1,6 @@
 {
   "name": "carwhere-vin-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MCP server for the CarWhere VIN API. Decode any VIN, look up verified buyer prices, NHTSA safety recalls, and AI-generated vehicle insights from inside Claude Desktop, Cursor, Claude Code, Windsurf, and any other MCP-compatible client.",
   "license": "MIT",
   "author": "CarWhere <hello@carwhere.com>",
@@ -50,5 +50,5 @@
   "engines": {
     "node": ">=18"
   },
-  "mcpName": "io.github.carwhere/vin-mcp"
+  "mcpName": "io.github.Carwhere/vin-mcp"
 }
