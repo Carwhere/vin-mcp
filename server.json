@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "name": "io.github.carwhere/vin-mcp",
+  "name": "io.github.Carwhere/vin-mcp",
   "description": "Decode any US-market VIN, check NHTSA recalls, and look up verified buyer-paid car prices. Free.",
   "repository": {
     "url": "https://github.com/carwhere/vin-mcp",
