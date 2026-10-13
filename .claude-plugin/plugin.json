@@ -1,0 +1,14 @@
+{
+  "name": "carwhere-vin",
+  "version": "0.1.2",
+  "description": "Decode any US-market VIN, check open NHTSA safety recalls, and look up verified buyer-paid car prices. Real transaction data, not estimates. Free, no API key.",
+  "author": {
+    "name": "CarWhere",
+    "email": "hello@carwhere.com",
+    "url": "https://www.carwhere.com"
+  },
+  "homepage": "https://www.carwhere.com/developers/mcp",
+  "repository": "https://github.com/Carwhere/vin-mcp",
+  "license": "MIT",
+  "keywords": ["vin", "vin-decoder", "automotive", "nhtsa", "recalls", "car-prices"]
+}
