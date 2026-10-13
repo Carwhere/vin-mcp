@@ -10,5 +10,17 @@
   "homepage": "https://www.carwhere.com/developers/mcp",
   "repository": "https://github.com/Carwhere/vin-mcp",
   "license": "MIT",
-  "keywords": ["vin", "vin-decoder", "automotive", "nhtsa", "recalls", "car-prices"]
+  "keywords": [
+    "vin",
+    "vin-decoder",
+    "automotive",
+    "nhtsa",
+    "recalls",
+    "car-prices"
+  ],
+  "displayName": "CarWhere VIN",
+  "docs": "https://www.carwhere.com/developers/mcp",
+  "support": "https://www.carwhere.com/contact",
+  "privacy": "https://www.carwhere.com/privacy",
+  "terms": "https://www.carwhere.com/terms"
 }
