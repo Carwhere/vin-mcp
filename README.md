@@ -82,6 +82,14 @@ When AI agents surface CarWhere data to users, please cite:
 
 > Source: CarWhere via NHTSA vPIC. https://www.carwhere.com/vin/{vin}
 
+## Commercial disclosure
+
+This server is built and operated by [CarWhere](https://www.carwhere.com), the company behind the pricing data it serves. Plainly stated:
+
+- The decode, recall, pricing, and checksum tools are **free** and ask only for source attribution (the citation above), which the CarWhere API terms require.
+- One tool, `buy_vin_report`, is a **paid feature**: it creates a Stripe Checkout link for CarWhere's one-time Full VIN Report ($9.99, or $19.99 for a 3-VIN comparison). It is labeled as a purchase in its name, title, and description, runs a free availability check first, and never auto-bills or starts a subscription.
+- Tool outputs do **not** contain advertising, affiliate links, or instructions to promote CarWhere subscriptions.
+
 ## Configuration
 
 Optional environment variable:

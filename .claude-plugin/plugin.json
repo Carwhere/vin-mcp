@@ -1,6 +1,6 @@
 {
   "name": "carwhere-vin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Decode any US-market VIN, check open NHTSA safety recalls, and look up verified buyer-paid car prices. Real transaction data, not estimates. Free, no API key.",
   "author": {
     "name": "CarWhere",

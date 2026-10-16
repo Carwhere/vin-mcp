@@ -2,7 +2,7 @@
   "mcpServers": {
     "carwhere-vin": {
       "command": "npx",
-      "args": ["-y", "carwhere-vin-mcp@0.1.2"]
+      "args": ["-y", "carwhere-vin-mcp@0.1.3"]
     }
   }
 }
