@@ -1,7 +1,7 @@
 {
   "name": "carwhere-vin",
   "version": "0.1.3",
-  "description": "Decode any US-market VIN, check open NHTSA safety recalls, and look up verified buyer-paid car prices. Real transaction data, not estimates. Free, no API key.",
+  "description": "Decode any US-market VIN, check open NHTSA safety recalls, and look up verified buyer-paid car prices. Real transaction data, not estimates. Free, no API key. Built by CarWhere; includes one clearly labeled paid tool, buy_vin_report, which creates a Stripe checkout link for CarWhere's $9.99 Full VIN Report. Free tools return data with source attribution only.",
   "author": {
     "name": "CarWhere",
     "email": "hello@carwhere.com",

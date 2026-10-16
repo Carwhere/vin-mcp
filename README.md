@@ -2,7 +2,7 @@
 
 MCP server for the [CarWhere](https://www.carwhere.com) VIN API. Decode any VIN, look up verified buyer prices, NHTSA safety recalls, and AI-generated vehicle insights from inside Claude Desktop, Cursor, Claude Code, Windsurf, Zed, and any other MCP-compatible client.
 
-Free. No auth. Public data.
+Free. No auth. Public data. One clearly labeled paid tool (`buy_vin_report`) — see [Commercial disclosure](#commercial-disclosure).
 
 ## What it does
 
